@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.min.css">
+    <title>Mike Store</title>
+    
+</head>
+<body>
+    <!-- ===================== start navbar ===================== -->
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="img/sneakers.png" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <img src="img/search.png" width="20" alt="" class="search-icon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limited-offer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <a href="#" class="store-item">AIR FORCE</a>
+            <a href="#" class="store-item">JORDAN</a>
+            <a href="#" class="store-item">BLAZER</a>
+            <a href="#" class="store-item">CRATER</a>
+            <a href="#" class="store-item">HIPPIE</a>
+        </div>
+    </nav>
+    <!-- ===================== end navbar ===================== -->
+
+    <!-- ===================== start slider  ===================== -->
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="slider-item">
+                    <img src="img/air.png" alt="air-01" class="slider-img">
+                    <div class="sliderBg"></div>
+                    <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                    <h2 class="sliderPrice">$119</h2>
+                    <a href="#product">
+                    <button class="buyButton">Buy Now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="img/jordan.png" alt="jordan" class="slider-img">
+                    <div class="sliderBg"></div>
+                    <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                    <h2 class="sliderPrice">$149</h2>
+                    <a href="#product">
+                    <button class="buyButton">Buy Now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="img/blazer.png" alt="blazer" class="slider-img">
+                    <div class="sliderBg"></div>
+                    <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                    <h2 class="sliderPrice">$109</h2>
+                    <a href="#product">
+                    <button class="buyButton">Buy Now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="img/crater.png" alt="crater" class="slider-img">
+                    <div class="sliderBg"></div>
+                    <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                    <h2 class="sliderPrice">$129</h2>
+                    <a href="#product">
+                    <button class="buyButton">Buy Now!</button>
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <img src="img/hippie.png" alt="hippie" class="slider-img">
+                    <div class="sliderBg"></div>
+                    <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                    <h2 class="sliderPrice">$99</h2>
+                    <a href="#product">
+                    <button class="buyButton">Buy Now!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <!-- ===================== end slider  ===================== -->
+    
+    <!-- ===================== start features  ===================== -->
+        <div class="features">
+            <div class="feature">
+                <img src="./img/shipping.png" alt="" class="featureImg">
+                <span class="featureTitle">FREE SHIPPING</span>
+                <span class="featureDesc">Free worldwide shipping on all orders.</span>
+            </div>
+            <div class="feature">
+                <img src="./img/return.png" alt="" class="featureImg">
+                <span class="featureTitle">30 DAYS RETURN</span>
+                <span class="featureDesc">No question return and easy refund in 14 days</span>
+            </div>
+            <div class="feature">
+                <img src="./img/gift.png" alt="" class="featureImg">
+                <span class="featureTitle">GIFT CARDS</span>
+                <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+            </div>
+            <div class="feature">
+                <img src="./img/contact.png" alt="" class="featureImg">
+                <span class="featureTitle">CONTACT US!</span>
+                <span class="featureDesc">Keep in touch via email and support system.</span>
+            </div>
+        </div>
+    <!-- ===================== end features  ===================== -->
+
+    <!-- ===================== start product  ===================== -->
+        <div class="product" id="product">
+            <img src="./img/air.png" class="productImg" alt="">
+            <div class="productDetails">
+                <h1 class="productTitle">Air Force</h1>
+                <h2 class="productPrice"></h2>
+                <p class="productDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores quae harum iure temporibus odit.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productBtn">Buy Now!</button>
+        </div>
+
+    <!-- ===== start payment tap ====== -->
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+
+            <label for="name">Name And Surname</label>
+            <input type="text" id="name" placeholder="John Doe" class="payInput">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" placeholder="+20 1011 0101 " class="payInput">
+
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Cairo" class="payInput">
+
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="35" alt="visa" class="cardIcon">
+                <img src="img/master.png" width="35" alt="master" class="cardIcon">
+            </div>
+            <input type="password" placeholder="Card Number" class="payInput">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payBtn">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <!-- ====== end payment tap ======= -->
+
+    <!-- ===================== end product  ===================== -->
+    
+    <!-- ===================== start gallery  ===================== -->
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <!-- ===================== end gallery  ===================== -->
+
+    <!-- ===================== new season  ===================== -->
+        <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.unsplash.com/photo-1527813972756-2890936000e9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw2NjA5NDE1NHx8ZW58MHx8fHx8"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <!-- ===================== new season ===================== -->
+
+    <!-- ===================== start footer ====================== -->
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="email" placeholder="asmaa@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <i class="fa-brands fa-facebook-f fIcon"></i>
+                    <i class="fa-brands fa-twitter fIcon twitter"></i>
+                    <i class="fa-brands fa-instagram fIcon instagram"></i>
+                    <i class="fa-brands fa-whatsapp fIcon whatsApp"></i>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@<span>Asmaa Saeed</span> All Rights Reserved 2024</span>
+            </div>
+        </div>
+    </footer>
+    <!-- ===================== end footer ====================== -->
+    <script src="app.js"></script>
+</body>
+</html>
